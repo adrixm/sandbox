@@ -1,6 +1,10 @@
 /*! \file hello.c
  *  \brief A simple example showing the use of standard types in C99
  *  and how to comment C source files for Doxygen.
+ *  The \file description line must ALWAYS be present if the global symbols
+ *  of the sopurce files are to be documented with DoxyGen (functions,
+ *  variables, etc.)
+ *
  */
 
 #include <stdio.h>
